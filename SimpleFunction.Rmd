@@ -1,0 +1,15 @@
+---
+title: "SimpleFunction"
+author: "Albert Asuncion"
+date: "2/22/2017"
+output:
+  html_document:
+    keep_md: true
+---
+
+#Create a new function and upload to GitHub
+
+```{r}
+se <- function(x) {
+  sd(x)/length(x)
+}
